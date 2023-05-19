@@ -1,9 +1,5 @@
 {
-    "input-files-path":[
-        { "source": ".\\Files\\InputFiles\\big-mac-historical-source-data.csv"}
-    ],
-    "output-files-path":[
-        {"source": ".\\Files\\OutputFiles\\big-mac-historical-source-data.xml"}
-    ],
+    "input-files-path": ".\\Files\\InputFiles\\big-mac-historical-source-data.csv",
+    "output-files-path":".\\Files\\OutputFiles\\big-mac-historical-source-data.xml",
     "csv-delimiter": ","
 }

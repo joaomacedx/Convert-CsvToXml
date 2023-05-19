@@ -4,9 +4,9 @@ function Read-Data-From-CSV-File {
         [string] $filePath,
         [string] $csvDelimiter
     )
-    $columnRows = Import-Csv -Path $filePath -Delimiter $csvDelimiter
+    $rows = Import-Csv -Path $filePath -Delimiter $csvDelimiter
+    return $rows
 
-    return $columnRows;
 }
 
 Export-ModuleMember -Function  Read-Data-From-CSV-File
