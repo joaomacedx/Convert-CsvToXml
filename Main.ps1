@@ -1,5 +1,5 @@
-Import-Module -DisableNameChecking  '.\Modules\Business\ReadDataFromCsvFile.psm1'
-Import-Module -DisableNameChecking '.\Modules\Business\WriteDataInXmlFile.psm1'
+Import-Module -DisableNameChecking  '.\Modules\Functions\ReadDataFromCsvFile.psm1'
+Import-Module -DisableNameChecking '.\Modules\Functions\WriteDataInXmlFile.psm1'
 
 try {
     $configParams = (Get-Content '.\config.json' | Out-String | ConvertFrom-Json)

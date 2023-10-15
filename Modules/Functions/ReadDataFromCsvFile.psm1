@@ -1,5 +1,5 @@
 # function to Read data from csv file and returns a list containing the read data
-function Read-Data-From-CSV-File {
+function Read-DataFromCSVFile {
     param (
         [string] $filePath,
         [string] $csvDelimiter
@@ -9,4 +9,4 @@ function Read-Data-From-CSV-File {
 
 }
 
-Export-ModuleMember -Function  Read-Data-From-CSV-File
+Export-ModuleMember -Function  Read-DataFromCSVFile 

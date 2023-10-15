@@ -1,5 +1,5 @@
 # function to write extracted data in XML file
-function Write-Data-In-XML-File {
+function Write-DataInXMLFile {
     param (
         [System.Object[]] $data,
         [string] $outputPath
@@ -30,4 +30,4 @@ function Write-Data-In-XML-File {
     $xmlDoc.Save($outputPath)
 }
 
-Export-ModuleMember -Function  Write-Data-In-XML-File
+Export-ModuleMember -Function  Write-DataInXMLFile
